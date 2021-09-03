@@ -3,3 +3,12 @@ body{
     text-align: end;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.parrafo{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 1px solid purple;
+    color: blue;
+    width: 20%;
+}
