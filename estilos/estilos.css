@@ -17,3 +17,29 @@ body{
     list-style: none;
     display: inline-block;
 }
+
+.navbar ol{
+    
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.navbar ol ul li{
+    margin-right: 25px;
+    padding: 10px;
+}
+
+.navbar ol ul li:hover{
+    background: white;
+    cursor: pointer;
+}
+
+.navbar{
+    background: skyblue;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #444444;
+    margin-top: 20px;
+}
+
+
