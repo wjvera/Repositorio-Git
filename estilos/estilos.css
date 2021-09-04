@@ -13,6 +13,11 @@ body{
     width: 20%;
 }
 
+.container-fluid{
+    display: block;
+    display: inline-block;
+}
+
 
 .pie{
     padding-top: 10px;
@@ -24,7 +29,6 @@ body{
 
 .pie p{
     text-align: center;
-    border: 1px solid red;
 }
 
 
@@ -34,7 +38,6 @@ body{
 }
 
 .navbar ol{
-    
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -51,9 +54,23 @@ body{
 }
 
 .navbar{
+    overflow: hidden;
+	width: 100%;
     background: skyblue;
     border-radius: 5px;
     box-shadow: 0 0 10px #444444;
-    margin-top: 20px;
+    
+}
+
+.navbar .A{  
+	float: left;
+    margin: 7px;
+    margin-left: 30px;
+
+}
+
+.navbar .B{
+    float: right;
+    margin-top: 10px;
 }
 
