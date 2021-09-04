@@ -16,17 +16,40 @@ body{
 
 .pie{
     padding-top: 10px;
+    padding-bottom: 10px;
     margin-top: 40px;
     background: skyblue;
     border-radius: 5px;
     box-shadow: 0 0 10px #444444;
+    overflow: hidden;
+    width: 100%;
 }
+
+.pie .a2{
+    float: left;
+    margin-left: 20px;
+}
+
+.pie .a3{
+    float: right;
+}
+
+
+
+.pie .limpiar{
+    float: none;
+    clear: both;
+}
+
 
 .pie p{
     text-align: center;
-    border: 1px solid red;
 }
 
+
+.pie .whats{
+    margin-right: 20px;
+}
 
 .navbar ol ul li{
     list-style: none;
